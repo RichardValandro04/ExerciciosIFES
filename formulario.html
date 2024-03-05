@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastrar Usuário</h1>
+
+    <form>
+        <fieldset>
+            <legend><span>1 </span>Dados Pessoais</legend>
+            
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password">
+        
+            <label for="confirmPassword">Confirmar Senha:</label>
+            <input type="password" name="confirmPassword" id="confirmPassword">
+
+            <label for="">Idade: </label>
+            <input type="radio" name="idade" id="idade" value="Acima 17">
+            <label for="idade">Acima 17</label>
+
+            <input type="radio" name="idade" id="idade" value="Abaixo 17">
+            <label for="idade">Abaixo ou Igual 17</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><span>2 </span>Perfil</legend>
+
+            <label for="descricao">Descrição:</label>
+            <textarea name="descricao" id="descricao"></textarea>
+
+            <label for="perfiltrabalho">Perfil Trabalho: </label>
+            <select name="perfilTrabalho" id="perfilTrabalho">
+                <optgroup label="Desktop">
+                    <option value="frontend">FrontEnd</option>
+                    <option value="backend">BackEnd</option>
+                    <option value="fullstack">FullStack</option>
+                    <option value="desginer">Designer</option>
+                </optgroup>
+
+                <optgroup label="Mobile">
+                    <option value="android">Android</option>
+                    <option value="ios">IOS</option>
+                    <option value="designer">Designer</option>
+                </optgroup>
+
+            </select>
+            
+            <label for="interesses">Interesses: </label>
+            <input type="checkbox" name="programador" id="programador">
+            <label for="programador">Programador</label>
+
+            <input type="checkbox" name="desgin" id="design">
+            <label for="design">Design</label>
+
+            <input type="checkbox" name="analista" id="analista">
+            <label for="analista">Analista</label>
+        </fieldset>
+    </form>
+</body>
+</html>
