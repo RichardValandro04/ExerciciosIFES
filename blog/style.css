@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body{
+    background-color: #1EA197;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color: #77DD77;
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+#seletor1, #seletor2{
+    background-color: #CFFFCA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#seletor1 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    width: 90px;
+    height: 90px;
+}
+
+#seletor2{
+    width: auto;
+    height: 80px;
+    text-align: center;
+}
+
+#fundo{
+    margin: auto;
+    text-align: center;
+}
+
+#meutexto{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+section, h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#titulo{
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 75px;
+}
+
+a:hover{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul.menu_horizontal {
+    text-align: center;
+	margin: auto;
+	padding: 15px;
+	list-style: none;
+}
+ul.menu_horizontal li {display: inline-table;}
+ul.menu_horizontal li a{ 
+	float: left;
+	display: block;
+	padding: 10px;
+	color: #000000;
+	background: #CFFFCA;
+	text-decoration: none;
+}
+ul.menu_horizontal li a:hover {
+	background: #1EA197;
+}
